@@ -27,7 +27,7 @@ class BeastMatchTests: XCTestCase {
         }
 
         XCTAssertTrue(isMonotonicallyIncreasing(tiles: tiles))
-        viewController.shuffleTiles(tiles: tiles)
+        //viewController.shuffleTiles(tiles: tiles)
         XCTAssertFalse(isMonotonicallyIncreasing(tiles: tiles))
     }
 
